@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NUSU Academics | Supporting Your Academic Journey</title>
+  
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+  
+  <!-- AOS Animation Library -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  
+  <!-- Custom CSS -->
+  <link href="css/styles.css" rel="stylesheet">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/images/favicon.png">
+</head>
+<body>
+  <div class="wrapper">
+    <!-- Sidebar -->
+    <nav id="sidebar">
+      <div class="sidebar-header">
+        <h2>NUSU</h2>
+        <h3>Academics</h3>
+      </div>
+      
+      <div class="sidebar-profile">
+        <div class="profile-image">
+          <img src="assets/images/nusu-logo.png" alt="NUSU Logo" loading="lazy">
+        </div>
+      </div>
+      
+      <ul class="list-unstyled components">
+        <li class="active">
+          <a href="index.html"><i class="icon-home"></i> Home</a>
+        </li>
+        <li>
+          <a href="resources.html"><i class="icon-book"></i> Resources</a>
+        </li>
+        <li>
+          <a href="deadlines.html"><i class="icon-calendar"></i> Deadlines</a>
+        </li>
+        <li>
+          <a href="team.html"><i class="icon-users"></i> Our Team</a>
+        </li>
+        <li>
+          <a href="contact.html"><i class="icon-envelope"></i> Contact</a>
+        </li>
+      </ul>
+      
+      <div class="sidebar-footer">
+        <div class="dark-mode-toggle">
+          <input type="checkbox" id="darkModeToggle" class="dark-mode-input">
+          <label for="darkModeToggle" class="dark-mode-label">
+            <i class="icon-sun"></i>
+            <i class="icon-moon"></i>
+          </label>
+        </div>
+        <p>© 2025 NUSU Academics</p>
+      </div>
+    </nav>
+    
+    <!-- Page Content -->
+    <div id="content">
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <button type="button" id="sidebarCollapse" class="btn">
+            <i class="icon-menu"></i>
+          </button>
+          
+          <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Search resources...">
+            <button id="searchButton"><i class="icon-search"></i></button>
+          </div>
+        </div>
+      </nav>
+      
+      <!-- Banner -->
+      <div class="banner" data-aos="fade-up">
+        <div class="banner-content">
+          <h1>Supporting Your Academic Journey</h1>
+          <p>Resources, guidance, and support throughout your university experience</p>
+          <a href="resources.html" class="btn btn-primary btn-lg">Explore Resources</a>
+        </div>
+      </div>
+      
+      <!-- Main Content -->
+      <div class="container-fluid main-content">
+        <div class="row">
+          <div class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
+            <div class="mission-section content-section">
+              <h2>Our Mission</h2>
+              <p class="lead">NUSU Academics is dedicated to enhancing the academic experience of all National University students through resources, support, and representation.</p>
+              <p>As the academic arm of the National University Student Union (NUSU), we work tirelessly to ensure students have access to quality academic resources, timely information about important deadlines, and a voice in academic decision-making processes.</p>
+              <p>We believe that every student deserves the tools and support they need to excel in their studies, regardless of their background or circumstances. Through our programs and resources, we aim to create an inclusive and supportive academic environment that empowers all students to reach their full potential.</p>
+            </div>
+          </div>
+          
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="content-section">
+              <h2>Key Services</h2>
+              <div class="key-services">
+                <div class="service-item">
+                  <i class="icon-book-open"></i>
+                  <h3>Academic Resources</h3>
+                  <p>Curated study materials, guides, and resources for all courses and subjects.</p>
+                </div>
+                
+                <div class="service-item">
+                  <i class="icon-calendar"></i>
+                  <h3>Deadline Tracking</h3>
+                  <p>Stay on top of important academic dates and submission deadlines.</p>
+                </div>
+                
+                <div class="service-item">
+                  <i class="icon-users"></i>
+                  <h3>Peer Support</h3>
+                  <p>Connect with other students and academic representatives for guidance.</p>
+                </div>
+                
+                <div class="service-item">
+                  <i class="icon-message-circle"></i>
+                  <h3>Academic Advocacy</h3>
+                  <p>Representation in university academic policy decisions.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Upcoming Deadlines Preview -->
+        <div class="row mt-4">
+          <div class="col-12" data-aos="fade-up" data-aos-delay="400">
+            <div class="content-section">
+              <div class="section-header">
+                <h2>Upcoming Deadlines</h2>
+                <a href="deadlines.html" class="view-all">View All</a>
+              </div>
+              <div id="upcomingDeadlines" class="deadline-preview">
+                <!-- Deadlines will be loaded here from JS -->
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Featured Resources -->
+        <div class="row mt-4">
+          <div class="col-12" data-aos="fade-up" data-aos-delay="500">
+            <div class="content-section">
+              <div class="section-header">
+                <h2>Featured Resources</h2>
+                <a href="resources.html" class="view-all">View All</a>
+              </div>
+              <div class="row featured-resources">
+                <div class="col-md-4">
+                  <div class="resource-card">
+                    <div class="resource-icon"><i class="icon-file-text"></i></div>
+                    <h3>Exam Preparation Guide</h3>
+                    <p>Comprehensive strategies and tips for effective exam preparation.</p>
+                    <a href="resources.html#exam-guide" class="btn btn-outline-primary">View Resource</a>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="resource-card">
+                    <div class="resource-icon"><i class="icon-video"></i></div>
+                    <h3>Research Methods Tutorial</h3>
+                    <p>Video tutorials on research methodologies and academic writing.</p>
+                    <a href="resources.html#research-methods" class="btn btn-outline-primary">Watch Videos</a>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="resource-card">
+                    <div class="resource-icon"><i class="icon-link"></i></div>
+                    <h3>Academic Support Services</h3>
+                    <p>Links to university writing centers, tutoring, and other support services.</p>
+                    <a href="resources.html#support-services" class="btn btn-outline-primary">Access Links</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Feedback Form -->
+        <div class="row mt-4">
+          <div class="col-12" data-aos="fade-up" data-aos-delay="600">
+            <div class="content-section feedback-section">
+              <h2>Quick Feedback</h2>
+              <p>Help us improve our services by sharing your thoughts.</p>
+              <form id="feedbackForm" action="https://formspree.io/f/yourformid" method="POST">
+                <div class="mb-3">
+                  <textarea class="form-control" name="feedback" rows="3" placeholder="Your feedback..."></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit Feedback</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Footer -->
+      <footer>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-6">
+              <h4>NUSU Academics</h4>
+              <p>Supporting Your Academic Journey</p>
+            </div>
+            <div class="col-md-6 text-md-end">
+              <div class="social-links">
+                <a href="#" aria-label="Facebook"><i class="icon-facebook"></i></a>
+                <a href="#" aria-label="Twitter"><i class="icon-twitter"></i></a>
+                <a href="#" aria-label="Instagram"><i class="icon-instagram"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="icon-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+  
+  <!-- Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  
+  <!-- AOS Animation Library -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  
+  <!-- Feather Icons -->
+  <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+  
+  <!-- Lunr.js for Search -->
+  <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+  
+  <!-- Custom JS -->
+  <script src="js/scripts.js"></script>
+  <script src="js/home.js"></script>
+  
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'GA_MEASUREMENT_ID');
+  </script>
+</body>
+</html>

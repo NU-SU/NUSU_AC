@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | NUSU Academics</title>
+  
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+  
+  <!-- AOS Animation Library -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  
+  <!-- Custom CSS -->
+  <link href="css/styles.css" rel="stylesheet">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/images/favicon.png">
+</head>
+<body>
+  <div class="wrapper">
+    <!-- Sidebar -->
+    <nav id="sidebar">
+      <div class="sidebar-header">
+        <h2>NUSU</h2>
+        <h3>Academics</h3>
+      </div>
+      
+      <div class="sidebar-profile">
+        <div class="profile-image">
+          <img src="assets/images/nusu-logo.png" alt="NUSU Logo" loading="lazy">
+        </div>
+      </div>
+      
+      <ul class="list-unstyled components">
+        <li>
+          <a href="index.html"><i class="icon-home"></i> Home</a>
+        </li>
+        <li>
+          <a href="resources.html"><i class="icon-book"></i> Resources</a>
+        </li>
+        <li>
+          <a href="deadlines.html"><i class="icon-calendar"></i> Deadlines</a>
+        </li>
+        <li>
+          <a href="team.html"><i class="icon-users"></i> Our Team</a>
+        </li>
+        <li class="active">
+          <a href="contact.html"><i class="icon-envelope"></i> Contact</a>
+        </li>
+      </ul>
+      
+      <div class="sidebar-footer">
+        <div class="dark-mode-toggle">
+          <input type="checkbox" id="darkModeToggle" class="dark-mode-input">
+          <label for="darkModeToggle" class="dark-mode-label">
+            <i class="icon-sun"></i>
+            <i class="icon-moon"></i>
+          </label>
+        </div>
+        <p>© 2025 NUSU Academics</p>
+      </div>
+    </nav>
+    
+    <!-- Page Content -->
+    <div id="content">
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <button type="button" id="sidebarCollapse" class="btn">
+            <i class="icon-menu"></i>
+          </button>
+          
+          <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Search...">
+            <button id="searchButton"><i class="icon-search"></i></button>
+          </div>
+        </div>
+      </nav>
+      
+      <!-- Contact Header -->
+      <div class="page-header" data-aos="fade-up">
+        <h1>Contact Us</h1>
+        <p>Get in touch with the NUSU Academics team</p>
+      </div>
+      
+      <!-- Main Content -->
+      <div class="container-fluid main-content">
+        <div class="row">
+          <!-- Contact Form -->
+          <div class="col-lg-8" data-aos="fade-up" data-aos-delay="100">
+            <div class="content-section contact-form-section">
+              <h2>Send Us a Message</h2>
+              <p>Have a question, feedback, or need assistance? Fill out the form below and we'll get back to you as soon as possible.</p>
+              
+              <form id="contactForm" action="https://formspree.io/f/yourformid" method="POST">
+                <div class="row">
+                  <div class="col-md-6 mb-3">
+                    <label for="name" class="form-label">Your Name</label>
+                    <input type="text" class="form-control" id="name" name="name" required>
+                  </div>
+                  <div class="col-md-6 mb-3">
+                    <label for="email" class="form-label">Email Address</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                  </div>
+                </div>
+                
+                <div class="mb-3">
+                  <label for="subject" class="form-label">Subject</label>
+                  <select class="form-select" id="subject" name="subject" required>
+                    <option value="" disabled selected>Select a subject</option>
+                    <option value="General Inquiry">General Inquiry</option>
+                    <option value="Academic Resources">Academic Resources</option>
+                    <option value="Deadlines & Events">Deadlines & Events</option>
+                    <option value="Technical Support">Website Technical Support</option>
+                    <option value="Feedback">Feedback</option>
+                    <option value="Other">Other</option>
+                  </select>
+                </div>
+                
+                <div class="mb-3">
+                  <label for="message" class="form-label">Message</label>
+                  <textarea class="form-control" id="message" name="message" rows="6" required></textarea>
+                </div>
+                
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="copyEmail" name="copyEmail">
+                  <label class="form-check-label" for="copyEmail">Send me a copy of this message</label>
+                </div>
+                
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="consent" name="consent" required>
+                  <label class="form-check-label" for="consent">I consent to NUSU Academics storing my contact information for the purpose of responding to this inquiry</label>
+                </div>
+                
+                <button type="submit" class="btn btn-primary">Send Message</button>
+              </form>
+            </div>
+          </div>
+          
+          <!-- Contact Information -->
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="content-section contact-info-section">
+              <h2>Contact Information</h2>
+              
+              <div class="contact-method">
+                <i class="icon-map-pin"></i>
+                <div>
+                  <h3>Office Location</h3>
+                  <p>NUSU Academics Office<br>Student Union Building, Room 204<br>National University Campus<br>University Road, NU1 2AB</p>
+                </div>
+              </div>
+              
+              <div class="contact-method">
+                <i class="icon-clock"></i>
+                <div>
+                  <h3>Office Hours</h3>
+                  <p>Monday-Friday: 9:00 AM - 5:00 PM<br>Saturday: 10:00 AM - 2:00 PM<br>Sunday: Closed</p>
+                </div>
+              </div>
+              
+              <div class="contact-method">
+                <i class="icon-mail"></i>
+                <div>
+                  <h3>Email</h3>
+                  <p><a href="mailto:academics@nusu.edu">academics@nusu.edu</a></p>
+                </div>
+              </div>
+              
+              <div class="contact-method">
+                <i class="icon-phone"></i>
+                <div>
+                  <h3>Phone</h3>
+                  <p>+1 234 567 8900</p>
+                </div>
+              </div>
+              
+              <div class="social-media-contact">
+                <h3>Connect With Us</h3>
+                <div class="social-links">
+                  <a href="#" aria-label="Facebook"><i class="icon-facebook"></i></a>
+                  <a href="#" aria-label="Twitter"><i class="icon-twitter"></i></a>
+                  <a href="#" aria-label="Instagram"><i class="icon-instagram"></i></a>
+                  <a href="#" aria-label="LinkedIn"><i class="icon-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+            
+            <!-- FAQ Preview -->
+            <div class="content-section faq-preview-section mt-4" data-aos="fade-up" data-aos-delay="300">
+              <h2>Frequently Asked Questions</h2>
+              
+              <div class="accordion" id="faqAccordion">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                      How do I access academic resources?
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                      You can access all academic resources through our <a href="resources.html">Resources page</a>. We offer PDFs, video tutorials, and links to useful external websites organized by subject and type.
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      How can I add my own deadlines to the calendar?
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                      Visit our <a href="deadlines.html">Deadlines page</a> and scroll down to the "Add Personal Deadline" section. Fill out the form with your deadline details, and it will be added to your personal calendar.
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      How can I join the NUSU Academics team?
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                      Check out the "Join Our Team" section on our <a href="team.html">Team page</a> for current openings and application instructions. We're always looking for dedicated students to help support the academic community!
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <a href="#" class="btn btn-outline-primary mt-3">View All FAQs</a>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Campus Map -->
+        <div class="row mt-4">
+          <div class="col-12" data-aos="fade-up" data-aos-delay="400">
+            <div class="content-section map-section">
+              <h2>Find Us on Campus</h2>
+              <div class="campus-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2589.903833654881!2d-0.1278839!3d51.5074456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTHCsDMwJzI2LjgiTiAwwrAwNyc0MC40Ilc!5e0!3m2!1sen!2sus!4v1622137555656!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Footer -->
+      <footer>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-6">
+              <h4>NUSU Academics</h4>
+              <p>Supporting Your Academic Journey</p>
+            </div>
+            <div class="col-md-6 text-md-end">
+              <div class="social-links">
+                <a href="#" aria-label="Facebook"><i class="icon-facebook"></i></a>
+                <a href="#" aria-label="Twitter"><i class="icon-twitter"></i></a>
+                <a href="#" aria-label="Instagram"><i class="icon-instagram"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="icon-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+  
+  <!-- Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  
+  <!-- AOS Animation Library -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  
+  <!-- Feather Icons -->
+  <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+  
+  <!-- Lunr.js for Search -->
+  <script src="https://unpkg.com/lunr@2.3.9/lunr.min.js"></script>
+  
+  <!-- Custom JS -->
+  <script src="js/scripts.js"></script>
+  <script src="js/contact.js"></script>
+  
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'GA_MEASUREMENT_ID');
+  </script>
+</body>
+</html>

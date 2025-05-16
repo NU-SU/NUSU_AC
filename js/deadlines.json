@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "title": "Essay Submission Deadline",
+    "description": "Final submission deadline for all English Literature essays",
+    "date": "2025-02-15T23:59:00",
+    "type": "assignment",
+    "course": "English Literature"
+  },
+  {
+    "id": 2,
+    "title": "Midterm Exams Begin",
+    "description": "Midterm examination period begins for all Science faculty courses",
+    "date": "2025-02-20T09:00:00",
+    "type": "exam",
+    "course": "Multiple Courses"
+  },
+  {
+    "id": 3,
+    "title": "Course Registration Deadline",
+    "description": "Last day to register for Spring semester courses",
+    "date": "2025-01-31T16:30:00",
+    "type": "registration",
+    "course": "All Courses"
+  },
+  {
+    "id": 4,
+    "title": "Research Proposal Due",
+    "description": "Research proposal submission for final year projects",
+    "date": "2025-03-10T17:00:00",
+    "type": "assignment",
+    "course": "Research Methods"
+  },
+  {
+    "id": 5,
+    "title": "Final Exams Schedule Release",
+    "description": "Publication of the final examination timetable",
+    "date": "2025-03-15T12:00:00",
+    "type": "other",
+    "course": "All Courses"
+  },
+  {
+    "id": 6,
+    "title": "Dissertation Draft Review",
+    "description": "Submission deadline for dissertation drafts for supervisor feedback",
+    "date": "2025-03-25T23:59:00",
+    "type": "assignment",
+    "course": "Final Year Project"
+  },
+  {
+    "id": 7,
+    "title": "Summer Internship Application Deadline",
+    "description": "Last day to apply for university-sponsored summer internships",
+    "date": "2025-04-05T16:00:00",
+    "type": "registration",
+    "course": "Career Services"
+  },
+  {
+    "id": 8,
+    "title": "Reading Week Begins",
+    "description": "Start of reading week - no scheduled classes",
+    "date": "2025-04-10T00:00:00",
+    "type": "other",
+    "course": "All Courses"
+  },
+  {
+    "id": 9,
+    "title": "Group Project Presentation",
+    "description": "In-class presentations for Business Strategy group projects",
+    "date": "2025-04-20T10:00:00",
+    "type": "assignment",
+    "course": "Business Strategy"
+  },
+  {
+    "id": 10,
+    "title": "Final Exams Begin",
+    "description": "Start of the final examination period for Spring semester",
+    "date": "2025-05-05T09:00:00",
+    "type": "exam",
+    "course": "All Courses"
+  }
+]

@@ -1,0 +1,146 @@
+[
+  {
+    "title": "Effective Note-Taking Strategies",
+    "description": "Learn techniques to improve your note-taking in lectures and while reading.",
+    "content": "Note-taking video covering Cornell method, mind mapping, and digital tools.",
+    "type": "video",
+    "url": "resources.html#study-skills",
+    "tags": ["study skills", "notes", "lectures"]
+  },
+  {
+    "title": "Time Management for Students",
+    "description": "Comprehensive guide to managing your study time effectively.",
+    "content": "PDF guide on time blocking, priority matrix, and productivity techniques for students.",
+    "type": "pdf",
+    "url": "resources.html#study-skills",
+    "tags": ["time management", "productivity", "study skills"]
+  },
+  {
+    "title": "Memory Techniques",
+    "description": "External resource with evidence-based memory enhancement techniques.",
+    "content": "Link to resources on spaced repetition, active recall, and memory palace techniques.",
+    "type": "link",
+    "url": "resources.html#study-skills",
+    "tags": ["memory", "study skills", "techniques"]
+  },
+  {
+    "title": "Research Methods Tutorial",
+    "description": "Video tutorial on research methodologies and academic writing.",
+    "content": "Research methods video covering qualitative and quantitative approaches.",
+    "type": "video",
+    "url": "resources.html#academic-writing",
+    "tags": ["research", "academic writing", "methods"]
+  },
+  {
+    "title": "Citation Guide",
+    "description": "Comprehensive guide to APA, MLA, and Chicago citation styles.",
+    "content": "PDF guide with examples of proper citation formats for different sources.",
+    "type": "pdf",
+    "url": "resources.html#academic-writing",
+    "tags": ["citations", "referencing", "academic writing"]
+  },
+  {
+    "title": "Academic Databases Access",
+    "description": "Links to access university-subscribed research databases.",
+    "content": "Links to JSTOR, Scopus, Web of Science, and other academic databases.",
+    "type": "link",
+    "url": "resources.html#academic-writing",
+    "tags": ["databases", "research", "journals"]
+  },
+  {
+    "title": "Exam Anxiety Management",
+    "description": "Techniques to manage stress and anxiety before and during exams.",
+    "content": "Video with breathing exercises, cognitive techniques, and preparation strategies.",
+    "type": "video",
+    "url": "resources.html#exam-guide",
+    "tags": ["exams", "anxiety", "stress management"]
+  },
+  {
+    "title": "Exam Preparation Guide",
+    "description": "Comprehensive strategies and tips for effective exam preparation.",
+    "content": "PDF guide covering study schedules, material review, and practice strategies.",
+    "type": "pdf",
+    "url": "resources.html#exam-guide",
+    "tags": ["exams", "preparation", "study techniques"]
+  },
+  {
+    "title": "Past Exam Papers",
+    "description": "Access previous years' examination papers for practice.",
+    "content": "Link to repository of past exam papers organized by faculty and course.",
+    "type": "link",
+    "url": "resources.html#exam-guide",
+    "tags": ["exams", "practice", "past papers"]
+  },
+  {
+    "title": "Writing Center",
+    "description": "Book appointments with the university writing center for paper reviews.",
+    "content": "Link to the university writing center booking system and services.",
+    "type": "link",
+    "url": "resources.html#support-services",
+    "tags": ["support", "writing", "review"]
+  },
+  {
+    "title": "Tutoring Services",
+    "description": "Access free peer tutoring for difficult subjects and concepts.",
+    "content": "Link to tutoring services with information on booking sessions.",
+    "type": "link",
+    "url": "resources.html#support-services",
+    "tags": ["tutoring", "help", "support"]
+  },
+  {
+    "title": "Academic Advising",
+    "description": "Schedule meetings with academic advisors for course planning and guidance.",
+    "content": "Link to academic advising services with information on appointment booking.",
+    "type": "link",
+    "url": "resources.html#support-services",
+    "tags": ["advising", "guidance", "planning"]
+  },
+  {
+    "title": "Essay Submission Deadline",
+    "description": "Final submission deadline for all English Literature essays.",
+    "content": "English Literature essay deadline on February 15, 2025.",
+    "type": "deadline",
+    "url": "deadlines.html",
+    "tags": ["deadline", "assignment", "English Literature"]
+  },
+  {
+    "title": "Midterm Exams Begin",
+    "description": "Midterm examination period begins for all Science faculty courses.",
+    "content": "Science faculty midterm exams starting February 20, 2025.",
+    "type": "deadline",
+    "url": "deadlines.html",
+    "tags": ["deadline", "exam", "Science"]
+  },
+  {
+    "title": "Course Registration Deadline",
+    "description": "Last day to register for Spring semester courses.",
+    "content": "Spring semester course registration deadline on January 31, 2025.",
+    "type": "deadline",
+    "url": "deadlines.html",
+    "tags": ["deadline", "registration", "Spring semester"]
+  },
+  {
+    "title": "Sarah Johnson",
+    "description": "Head of Academics for NUSU",
+    "content": "Sarah is a final year Psychology student passionate about improving academic support services.",
+    "type": "team",
+    "url": "team.html",
+    "tags": ["team", "academics", "leadership"]
+  },
+  {
+    "title": "Michael Chen",
+    "description": "Deputy Head for NUSU Academics",
+    "content": "Michael is a Computer Science student with a focus on educational technology.",
+    "type": "team",
+    "url": "team.html",
+    "tags": ["team", "academics", "technology"]
+  },
+  {
+    "title": "Contact Information",
+    "description": "How to get in touch with NUSU Academics",
+    "content": "Office location, email, phone, and office hours for contacting NUSU Academics.",
+    "type": "contact",
+    "url": "contact.html",
+    "tags": ["contact", "support", "help"]
+  }
+]

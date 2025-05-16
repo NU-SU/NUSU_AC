@@ -864,6 +864,7 @@ body.dark-mode table {
   background-color: transparent;
   perspective: 1000px;
   height: 350px;
+  width: 200px;
 }
 
 .team-card-inner {

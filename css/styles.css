@@ -667,6 +667,7 @@ body.dark-mode table {
   padding: var(--space-lg);
   box-shadow: var(--shadow-sm);
   height: 100%;
+  width: 250px;
   display: flex;
   flex-direction: column;
   transition: transform var(--transition-normal), box-shadow var(--transition-normal);
